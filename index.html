@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Text Color Art </title>
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+
+    <div id="Heading">
+        <h1 class="display-1">Text Color Art</h1>
+
+    </div>
+
+    <div class="input-group">
+        <span style="background-color: #fca311; color: #000000; font-weight: bold;" class="input-group-text">Enter Text
+            Here</span>
+        <textarea class="form-control" style="background-color: #e5e5e5;font-size: 50px;" id="TextArea"
+            aria-label="With textarea"></textarea>
+    </div>
+
+    <div class="btn-group" id="radio" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" value="red" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio1">red</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" value="green" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio2">green</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" value="blue" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btnradio3">blue</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" checked>
+        <label class="btn btn-outline-primary" for="btnradio3">Rainbow</label>
+    </div>
+
+    <br>
+    <button type="button" id="btn-get" class="btn btn-lg btn-primary">Change Color</button>
+
+    <div class="input-group">
+        <span class="input-group-text"
+            style="background-color: #fca311; color: #000000; font-weight: bold;">output</span>
+        <textarea class="form-control" id="output" style="font-size: 50px;" aria-label="With textarea"></textarea>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
